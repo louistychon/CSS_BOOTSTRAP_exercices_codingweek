@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Formulaire de contact</h1>
+    <p><a href="../../index.html">Retour à la page d'accueil</a></p>
+
+    <fieldset>
+        <legend>Bonjour, vous souhaitez me contacter ?</legend>
+        <form action="">
+            <p>Qu'il en soit ainsi !</p>
+            <textarea rows="4" cols="50" type="text" placeholder="Écrivez-moi votre message" ></textarea>
+            <br>
+            <p>Prouvez-moi que vous n'êtes pas un robot ! Retrouvez le commentaire caché dans le code HTML de cette page et entrez le ci-dessous: </p>
+            <!-- Coucou petite perruche -->
+            <input type="text" placeholder="Commentaire dans le HTML" required><br><br>
+            <input type="text" placeholder="Tu ne réussira pas à écrire dans ce champs !" title="Tu ne réussira pas à écrire dans ce champs !"disabled>
+            <p>Louis sera-t-il accepté à Molengeek ? Place your bets !</p>
+            <label for="oui"><input type="radio" name="choix" id="oui" value="Oui" checked>Oui</label>
+            <label for="non"><input type="radio" name="choix" id="non" value="non">Non</label>
+            <label for="pe"><input type="radio" name="choix" id="pe" value="Peut-être">Peut-être</label>
+            <br>
+            <br>
+            <input type="button" value="Envoyer" title="Malheureusement ce formulaire ne s'enverra pas car il faut du PHP pour ça...">
+        </form>
+    </fieldset>
+</body>
+</html>
+
