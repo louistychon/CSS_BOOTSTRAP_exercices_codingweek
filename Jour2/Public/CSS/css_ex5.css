@@ -7,13 +7,15 @@
     height:500px;
 }
 
+.vert{
+    background-color:green;
+    height:500px;
+}
+
 .centered{
-    position:absolute;
     background-color:white;
     width:200px;
-    text-align:center;
-    margin-left:650px;
-    margin-top:200px;
+    margin:200px auto;
 }
 
 .rose{
@@ -21,13 +23,7 @@
     height:100px;
     width:100px;
     position:sticky;
-    left:0;
     top:0;
-}
-
-.vert{
-    background-color:green;
-    height:500px;
 }
 .bleu{
     background-color:blue;
