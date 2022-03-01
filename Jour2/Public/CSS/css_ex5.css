@@ -1,0 +1,39 @@
+.orange{
+    background-color:orange;
+    height:500px;
+}
+.jaune{
+    background-color:yellow;
+    height:500px;
+}
+
+.centered{
+    position:absolute;
+    background-color:white;
+    width:200px;
+    text-align:center;
+    margin-left:650px;
+    margin-top:200px;
+}
+
+.rose{
+    background-color:pink;
+    height:100px;
+    width:100px;
+    position:sticky;
+    left:0;
+    top:0;
+}
+
+.vert{
+    background-color:green;
+    height:500px;
+}
+.bleu{
+    background-color:blue;
+    width:100px;
+    height:100px;
+    position:fixed;
+    bottom:0;
+    right:0;
+}

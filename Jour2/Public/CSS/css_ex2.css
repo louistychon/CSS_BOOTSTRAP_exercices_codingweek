@@ -1,0 +1,30 @@
+h1{
+    
+    text-align:center;
+}
+.green{
+    color:green;
+}
+
+.paragraphes{
+    background-color:rgb(204, 79, 79);
+    color:white;
+    text-align:center;
+    width:70%;
+    margin:auto;
+}
+
+.pvert{
+    color:rgb(58, 50, 4);
+    font-weight:bold;
+}
+
+.paragraphes2{
+    background-color:lightgrey;
+    width:50%;
+    height:250px;
+    margin:auto;
+}
+.grand{
+    font-size:20px;
+}

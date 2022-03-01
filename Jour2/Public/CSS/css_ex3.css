@@ -1,0 +1,29 @@
+.texte1{
+    background-color: yellow;
+    /*height:200px;
+    height:unset;*/
+}
+
+.texte2{
+    width:25%;
+    padding:35px;
+    background-color:red;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.texte3{
+    background-color:lightgrey;
+    color:white;
+    width:60%;
+    margin:auto;
+    height: 250px;
+    margin-left:0;
+}
+
+.texte4{
+    padding:50px;
+    margin:50px;
+    background-color:rgb(142, 55, 167);
+    width:25%;
+}
