@@ -1,0 +1,46 @@
+#container{
+    background-image: url("img/simpsons.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:1800px;
+    background-position: -250px;
+}
+
+.purple{
+    height:500px;
+    background-color:purple;
+    position:relative;
+}
+
+.red{
+    height:200px;
+    width:300px;
+    position:absolute;
+    background-color:red;
+    margin:150px 20%;
+    font-weight:bold;
+}
+
+.pdiv{
+    width:100%;
+    background-color:white;
+    height:40px;
+    font-weight:bold;
+    font-size:20px;
+    position:absolute;
+    margin-top:475px;
+    padding-top:20px;
+}
+
+.white{
+    height:200px;
+}
+
+.eclair{
+    position:absolute;
+    margin-top:535px;
+    height:500px;
+    width:100%;
+    background-image: url("img/eclair.png");
+    background-repeat: repeat-x;
+}
