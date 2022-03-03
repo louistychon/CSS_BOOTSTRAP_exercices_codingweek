@@ -1,0 +1,29 @@
+Done -Régler le probleme de favicon
+Done -Régler l'affichage non reponsive de la carte
+- Class active debug
+
+Done - min 3 pages
+Done - css bootstrap
+Done - navbar/footer
+Done - chemin relatif
+Done - caroussel (4 images minimum et veiller à ce que le carrousel conserve la même dimension entre chaque image)
+Done - modal
+Done - système d'ancre sur une même page
+Done - formulaire de contact - integration google maps
+Done - Utilisation des pseudo-classes (hover, focus, active)
+Done - Utilisation de font-awesome
+Done - Installer une police d'écriture
+Done - Ajouter une favicon
+Done - BONUS : Media queries
+- indentation, commentaire, syntaxe, arborescence du dossier
+
+--------------------------------------------------------------------
+
+- Nom du dossier ⇒ nom_prenom_projetCW
+- remise du projet à 13h - vendredi
+- remise via email - codingweek.groupec@gmail.com
+- WeTransfer ou format .zip 
+THEME LIBRE FAITES CE QUE VOUS VOULEZ
+DEPASSEZ VOUS
+ON VEUT DU BEAU DESIGN
+DES DINGUERIES
