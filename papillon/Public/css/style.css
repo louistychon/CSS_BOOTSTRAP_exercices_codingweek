@@ -1,0 +1,170 @@
+/*Police personnalisée*/
+
+@font-face {
+    font-family: 'Hubballi-Regular';
+    src: url(/font/Hubballi-Regular.ttf) format('ttf');
+}
+
+/*Appliqué à toutes les balises du site*/
+
+body {
+    font-family: 'Hubballi-Regular' !important;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+h1,
+h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #495057;
+}
+
+.nav-item:hover {
+    background-color: #dee2e6;
+
+}
+
+.nav-item a:focus {
+    outline: 3px solid skyblue;
+}
+
+a:active {
+    color: red;
+}
+
+/*Home*/
+
+.accordion h2 {
+    margin-top: 0 !important;
+}
+
+.card-title {
+    color: rgb(30, 62, 68);
+}
+
+.card-text {
+    color: rgb(30, 62, 68);
+}
+
+.carousel-item img {
+    aspect-ratio: 1200/795;
+}
+
+.card img {
+    aspect-ratio: 1200/795;
+    padding: 0.5em;
+    border-radius: 5%;
+}
+
+.card:hover {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.carousel:hover {
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.carousel-control-next:hover {
+    background-color: whitesmoke;
+    opacity: 75%;
+}
+
+.carousel-control-prev:hover {
+    background-color: whitesmoke;
+    opacity: 75%;
+}
+
+.carousel-control-next-icon {
+    background-color: grey;
+}
+
+.carousel-control-prev-icon {
+    background-color: grey;
+}
+
+/*page contact*/
+
+input,
+select {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+/*page a-propos*/
+
+.jeu {
+    background-image: url('../img/Amata_phegea.jpg');
+    background-size: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 80vh;
+    margin: auto;
+}
+
+.jeu h1 {
+    color: white;
+}
+
+.jeu button {
+    opacity: 1 !important;
+}
+
+/*page chenilles*/
+
+.etapes {
+    width: 500px;
+    height: auto;
+    margin: 15px;
+}
+
+.container-etapes {
+    border: 1px solid grey;
+    padding: 2%;
+    border-radius: 2%;
+    margin-bottom: 2vh;
+}
+
+.container-etapes:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 500px) {
+    .slider {
+        display: none
+    }
+
+    .champs {
+        flex-direction: column;
+    }
+
+    .container-etapes {
+        border: none;
+        width: auto;
+    }
+
+    .meta {
+        display: none;
+    }
+
+    .container-etapes img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+    .container-etapes {
+        border: none;
+    }
+
+    .container-etapes img {
+        width: 250px;
+    }
+}

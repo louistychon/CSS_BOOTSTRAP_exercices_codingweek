@@ -63,9 +63,9 @@ h1, h2{
     border-radius: 5%;
 }
 
-.card{
+.card:hover{
     border: none;
-    color: #495057;
+    background-color:#dee2e6;
 }
 
 /*page contact*/
