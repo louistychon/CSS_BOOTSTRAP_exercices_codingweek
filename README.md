@@ -4,4 +4,6 @@ This folder contains the exercices we had at the coding week in Molengeek from t
 
 Here are the languages & librairies used in this repo : HTML, CSS, Bootstrap, PHP, JS.
 
-Note that these files may not be perfect and that the purpose of sharing this folder is not to have you copy-paste it (DYOR).
+Note that these files may not be perfect and that the purpose of sharing this folder is not to have you copy-paste it for your own coding week because copy-paste don't really help you to learn how to code.
+
+Louis Tychon 
