@@ -76,7 +76,7 @@
               <label for="cp" class="form-label">Code postal :</label>
               <input type="number" placeholder="Votre code postal" class="form-control" id="cp">
               <p>Voici l'adresse de l'entreprise papillon.com (pour info) :</p>
-              <iframe class="d-block m-auto" width="450" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ0yhQJ4zDw0cRd79uFFGRecc&key=AIzaSyCnz0HVO7ib5WAuTuK6R3CCb_j_qXUpLEg"></iframe>
+              <iframe class="d-block m-auto" width="450" height="450" style="border:0" loading="lazy" allowfullscreen src="[enter link to your map here (api)]"></iframe>
               <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Inscrivez-moi à la newsletter</label>
